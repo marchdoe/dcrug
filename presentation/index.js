@@ -137,21 +137,22 @@ export default class Presentation extends React.Component {
               Post CSS
             </Heading>
             <Heading size={1} textColor="lightblue" fit caps>
-              Told through Post Punk
+              & CSS Modules
             </Heading>
           </Slide>
 
           <Slide bgImage={images.bts.replace("/", "")} bgDarken={0.75}>
             <Heading size={1} fit caps lineHeight={1} textColor="white">
-              Hi I'm Doug March
+              Hi, I'm Doug March
             </Heading>
-            <Heading size={2} textColor="lightblue" fit caps>
-              Not Doug Martsch (also not post punk)
+            <Heading size={2} textColor="lightblue" fit>
+              Not Doug Martsch (Built to Spill)
             </Heading>
             <Text textColor="white" textSize="1em" margin="100px 0px 0px" bold>
-              t: @marchdoe
+              @marchdoe
               <br />
-              w: doug-march.com
+              <br />
+              doug-march.com
             </Text>
           </Slide>
 
@@ -169,9 +170,15 @@ export default class Presentation extends React.Component {
           </Slide>
 
           <Slide bgImage={images.sexpistols.replace("/", "")} bgDarken={0.25} >
+            <Heading size={1} fit caps lineHeight={1} textColor="white">
+              The Web
+            </Heading>
           </Slide>
 
           <Slide bgImage={images.minorThreat.replace("/", "")}>
+            <Heading size={1} fit caps lineHeight={1} textColor="white">
+              HTML
+            </Heading>
           </Slide>
 
           <Slide bgImage={images.badbrains.replace("/", "")} bgColor="primary">
@@ -225,7 +232,7 @@ export default class Presentation extends React.Component {
 
           <Slide bgColor="secondary" textColor="primary">
             <Heading size={1} fit caps lineHeight={1} textColor="white">
-              Just add to the problem
+              Just added to the problem
             </Heading>
           </Slide>
 
@@ -235,26 +242,13 @@ export default class Presentation extends React.Component {
             </Heading>
           </Slide>
 
-
-          <Slide  bgImage={images.devo.replace("/", "")} bgColor="secondary" textColor="primary">
-            <Heading size={1} fit caps lineHeight={1} textColor="white">
-              Post Punk?
-            </Heading>
-          </Slide>
-
-          <Slide bgImage={images.sonicYouth2.replace("/", "")} bgColor="secondary" textColor="primary" bgDarken={0.5}>
+          <Slide bgImage={images.devo.replace("/", "")} bgColor="secondary" textColor="primary" bgDarken={0.5}>
             <Heading size={1} fit caps lineHeight={1} textColor="white">
               PostCSS
             </Heading>
-          </Slide>
-
-          <Slide bgColor="secondary" textColor="primary">
-            <Heading size={1} fit caps lineHeight={1} textColor="white">
-              PostCSS
-            </Heading>
-            <Heading size={4} fit caps lineHeight={1} textColor="white">
-              What is it?
-            </Heading>
+            <Appear>
+              <Text fit bold caps textColor="tertiary">What is it?</Text>
+            </Appear>
           </Slide>
 
           <Slide bgColor="black">
@@ -356,6 +350,7 @@ export default class Presentation extends React.Component {
             <Heading size={1} fit caps lineHeight={1} textColor="white">
               Is PostCSS the solution?
             </Heading>
+            <Text fit bold caps textColor="tertiary">Maybe?</Text>
           </Slide>
 
           <Slide bgColor="secondary" textColor="primary">
@@ -372,7 +367,7 @@ export default class Presentation extends React.Component {
 
           <Slide bgColor="secondary" textColor="primary">
             <Heading size={1} fit caps lineHeight={1} textColor="white">
-
+              React & Webpack
             </Heading>
           </Slide>
 
@@ -391,14 +386,7 @@ export default class Presentation extends React.Component {
             </Heading>
           </Slide>
 
-          <Slide
-            bgColor="primary"
-            notes="
-              <ul>
-                <li>talk about that</li>
-                <li>and that</li>
-              </ul>
-            ">
+          <Slide bgColor="primary">
             <CodePane
               lang="jsx"
               source={require("raw!../assets/code/css-modules-2.example")}
@@ -407,14 +395,7 @@ export default class Presentation extends React.Component {
             />
           </Slide>
 
-          <Slide
-            bgColor="primary"
-            notes="
-              <ul>
-                <li>talk about that</li>
-                <li>and that</li>
-              </ul>
-            ">
+          <Slide bgColor="primary">
             <CodePane
               lang="jsx"
               source={require("raw!../assets/code/css-modules-3.example")}
@@ -423,14 +404,7 @@ export default class Presentation extends React.Component {
             />
           </Slide>
 
-          <Slide
-            bgColor="primary"
-            notes="
-              <ul>
-                <li>talk about that</li>
-                <li>and that</li>
-              </ul>
-            ">
+          <Slide bgColor="primary">
             <CodePane
               lang="jsx"
               source={require("raw!../assets/code/css-modules-4.example")}
@@ -454,14 +428,7 @@ export default class Presentation extends React.Component {
             </BlockQuote>
           </Slide>
 
-          <Slide
-            bgColor="primary"
-            notes="
-              <ul>
-                <li>talk about that</li>
-                <li>and that</li>
-              </ul>
-            ">
+          <Slide bgColor="primary">
             <CodePane
               lang="jsx"
               source={require("raw!../assets/code/css-modules-5.example")}
@@ -470,14 +437,7 @@ export default class Presentation extends React.Component {
             />
           </Slide>
 
-          <Slide
-            bgColor="primary"
-            notes="
-              <ul>
-                <li>talk about that</li>
-                <li>and that</li>
-              </ul>
-            ">
+          <Slide bgColor="primary">
             <CodePane
               lang="jsx"
               source={require("raw!../assets/code/css-modules-6.example")}
@@ -492,14 +452,7 @@ export default class Presentation extends React.Component {
             </Heading>
           </Slide>
 
-          <Slide
-            bgColor="primary"
-            notes="
-              <ul>
-                <li>talk about that</li>
-                <li>and that</li>
-              </ul>
-            ">
+          <Slide bgColor="primary">
             <CodePane
               lang="jsx"
               source={require("raw!../assets/code/css-modules-7.example")}
@@ -508,14 +461,7 @@ export default class Presentation extends React.Component {
             />
           </Slide>
 
-          <Slide
-            bgColor="primary"
-            notes="
-              <ul>
-                <li>talk about that</li>
-                <li>and that</li>
-              </ul>
-            ">
+          <Slide bgColor="primary">
             <CodePane
               lang="jsx"
               source={require("raw!../assets/code/css-modules-8.example")}
@@ -530,11 +476,16 @@ export default class Presentation extends React.Component {
             </Heading>
             <List>
               <Appear>
-                <ListItem></ListItem>
+                <ListItem>No more conflicts</ListItem>
+              </Appear>
+              <Appear>
+                <ListItem>Explicit dependencies.</ListItem>
+              </Appear>
+              <Appear>
+                <ListItem>No global scope.</ListItem>
               </Appear>
             </List>
           </Slide>
-
 
           <Slide bgColor="secondary" textColor="primary">
             <Heading size={1} fit caps lineHeight={1} textColor="white">
@@ -556,17 +507,18 @@ export default class Presentation extends React.Component {
             </List>
           </Slide>
 
+          <Slide bgImage={images.joyDivision1.replace("/", "")} bgColor="secondary" textColor="primary" bgDarken={0.75}>
+            <Heading size={1} fit caps lineHeight={1} textColor="white">
+              Questions?
+            </Heading>
+          </Slide>
+
           <Slide bgImage={images.joyDivision2.replace("/", "")} bgColor="secondary" textColor="primary" bgDarken={0.25}>
             <Heading size={1} fit caps lineHeight={1} textColor="white">
               Demo
             </Heading>
           </Slide>
 
-          <Slide bgImage={images.joyDivision1.replace("/", "")} bgColor="secondary" textColor="primary" bgDarken={0.75}>
-            <Heading size={1} fit caps lineHeight={1} textColor="white">
-              Questions?
-            </Heading>
-          </Slide>
 
         </Deck>
       </Spectacle>

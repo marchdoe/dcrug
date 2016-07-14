@@ -1,6 +1,8 @@
+// Button.css
+
 :local(.button) [ ... ]
 
 // Becomes:
 // A Globally unique Class
 
-._284721-gm4vaLiDzgXiJ { ... } 
+._284721-gm4vaLiDzgXiJ { ... }

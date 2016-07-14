@@ -1,8 +1,18 @@
 # DCRUG Presentation
 
-## Title
+## PostCSS and CSS Modules
 
-SubTitle
+An overview of some new(ish) tools and techniques in the world of Cascading Style Sheets. The good, the bad, and what very well could be the future.
+
+These tools look to help eliminate the time it takes to write quality CSS.
+
+![alt text](http://lh3.ggpht.com/-7mLGeB7aN4k/U97lgtHmyHI/AAAAAAAAAnU/TWKSHFpCYyk/css-sucks-working-with-css_thumb%25255B2%25255D.gif?imgmax=800)
+
+While at the same time, removing that terrible feeling when refactoring it.
+
+![alt text](http://img.pandawhale.com/58061-wwwfunnypictureblogcom-VzH9.gif)
+
+This all means, more time for fun & profit!!!
 
 ## The Talk
 
@@ -15,11 +25,17 @@ SubTitle
 
 ### PostCSS
 
-http://nicolasgallagher.com/custom-css-preprocessing/
-https://www.smashingmagazine.com/2015/12/introduction-to-postcss/
-https://benfrain.com/breaking-up-with-sass-postcss/
+- [Custom CSS preprocessing](http://nicolasgallagher.com/custom-css-preprocessing/)
+- [An Introduction To PostCSS](https://www.smashingmagazine.com/2015/12/introduction-to-postcss/)
+- [Breaking up with Sass: it’s not you, it’s me](https://benfrain.com/breaking-up-with-sass-postcss/)
+
 
 ### CSS Modules
+
+- [CSS Modules - Welcome to the Future](http://glenmaddern.com/articles/css-modules)
+- [CSSconf EU 2015 | Glen Maddern: Interoperable CSS](https://www.youtube.com/watch?v=aIyhhHTmsXE)
+- [The case for CSS modules - Mark Dalgleish](https://www.youtube.com/watch?v=zR1lOuyQEt8)
+
 
 ## The Playlist
 
