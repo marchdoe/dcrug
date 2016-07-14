@@ -1,0 +1,13 @@
+// Typography.css
+//---------------
+
+.bold    { font-weight: bold; }
+.italic  {font-style: italic; }
+
+
+// Button.css
+//---------------
+
+.button {
+  composes: bold italic from "./typography.css";
+}

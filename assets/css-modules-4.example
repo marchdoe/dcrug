@@ -1,6 +1,0 @@
-:local(.button) [ ... ]
-
-// Becomes:
-// A Globally unique Class
-
-._284721-gm4vaLiDzgXiJ { ... } 

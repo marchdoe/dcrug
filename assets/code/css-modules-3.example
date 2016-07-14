@@ -1,0 +1,7 @@
+import styles from './Button.css';
+
+export default () => (
+  <div>
+    <div className="{styles.button}">...</div>
+  </div>
+);

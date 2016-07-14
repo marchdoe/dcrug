@@ -39,19 +39,22 @@ require("../assets/dcrug.css");
 
 
 const images = {
-  talkingHeadsWalk: require("../assets/talking-heads-walk.gif"),
-  talkingHeadsLamp: require("../assets/talking-heads-lamp.gif"),
-  bts: require("../assets/doug-martsch.gif"),
+  talkingHeadsWalk: require("../assets/gifs/talking-heads-walk.gif"),
+  talkingHeadsLamp: require("../assets/gifs/talking-heads-lamp.gif"),
+  bts: require("../assets/gifs/doug-martsch.gif"),
 
-  sexpistols: require("../assets/sid-vicious.gif"),
-  ramones: require("../assets/ramones.gif"),
-  minorThreat: require("../assets/minor-threat.gif"),
-  decendents: require("../assets/decendents.gif"),
-  badbrains: require("../assets/bad-brains.gif"),
-  beatles: require("../assets/beatles.gif"),
-
-  kat: require("../assets/kat.png"),
-  markdown: require("../assets/markdown.png")
+  sexpistols: require("../assets/gifs/sid-vicious.gif"),
+  ramones: require("../assets/gifs/ramones.gif"),
+  minorThreat: require("../assets/gifs/minor-threat.gif"),
+  decendents: require("../assets/gifs/decendents.gif"),
+  badbrains: require("../assets/gifs/bad-brains.gif"),
+  beatles: require("../assets/gifs/beatles.gif"),
+  tobin: require("../assets/gifs/tobin.gif"),
+  devo: require("../assets/gifs/devo.gif"),
+  flamingLips2: require("../assets/gifs/flaming-lips-2.gif"),
+  sonicYouth2: require("../assets/gifs/sonic-youth-2.gif"),
+  joyDivision1: require("../assets/gifs/joy-division-1.gif"),
+  joyDivision2: require("../assets/gifs/joy-division-2.gif"),
 };
 
 preloader(images);
@@ -195,57 +198,57 @@ export default class Presentation extends React.Component {
             </Heading>
           </Slide>
 
-          <Slide bgColor="primary" >
+          <Slide bgColor="secondary" textColor="primary">
             <Heading size={1} fit caps lineHeight={1} textColor="white">
               How they
             </Heading>
-            <Heading size={1} fit caps lineHeight={1} textColor="white">
-              actually worked
-            </Heading>
+            <Text fit bold caps textColor="tertiary">actually worked</Text>
+            <Appear>
+              <Text fit bold caps textColor="tertiary">Spacer Gifs, Tables for Layout, Netscape, IE, IE for MAC, Hacks, Shims and Shivs.</Text>
+            </Appear>
+          </Slide>
 
-            Spacer Gifs, Tables for Layout, Netscape, IE, IE for MAC, Hacks, Shims and Shivs.
+          <Slide bgImage={images.tobin.replace("/", "")}>
           </Slide>
 
           <Slide bgImage={images.decendents.replace("/", "")}>
           </Slide>
 
-          <Slide bgColor="primary" >
+          <Slide bgColor="secondary" textColor="primary">
             <Heading size={1} fit caps lineHeight={1} textColor="white">
               What we created to solve the problem
             </Heading>
+            <Appear>
+              <Text fit bold caps textColor="tertiary">SASS, SCSS, LESS, Stylus</Text>
+            </Appear>
           </Slide>
 
-          <Slide bgColor="primary" >
+          <Slide bgColor="secondary" textColor="primary">
             <Heading size={1} fit caps lineHeight={1} textColor="white">
               Just add to the problem
             </Heading>
           </Slide>
 
-          <Slide bgImage={images.talkingHeadsLamp.replace("/", "")} transition={["slide"]} bgColor="primary" >
+          <Slide bgImage={images.talkingHeadsLamp.replace("/", "")} bgColor="primary" >
             <Heading size={1} fit caps lineHeight={1} textColor="white">
               What can save us?
             </Heading>
           </Slide>
 
 
-          <Slide bgColor="primary" >
+          <Slide  bgImage={images.devo.replace("/", "")} bgColor="secondary" textColor="primary">
+            <Heading size={1} fit caps lineHeight={1} textColor="white">
+              Post Punk?
+            </Heading>
+          </Slide>
+
+          <Slide bgImage={images.sonicYouth2.replace("/", "")} bgColor="secondary" textColor="primary" bgDarken={0.5}>
             <Heading size={1} fit caps lineHeight={1} textColor="white">
               PostCSS
             </Heading>
           </Slide>
 
-          <Slide bgColor="primary">
-            <Heading size={1} fit caps lineHeight={1} textColor="white">
-              PostCSS?
-            </Heading>
-            <Appear>
-              <Heading size={1} fit caps lineHeight={1} textColor="white">
-              Maybe?
-              </Heading>
-            </Appear>
-          </Slide>
-
-          <Slide bgColor="primary" >
+          <Slide bgColor="secondary" textColor="primary">
             <Heading size={1} fit caps lineHeight={1} textColor="white">
               PostCSS
             </Heading>
@@ -261,7 +264,7 @@ export default class Presentation extends React.Component {
             </BlockQuote>
           </Slide>
 
-          <Slide bgColor="black">
+            <Slide bgColor="secondary" textColor="primary">
             <Heading size={1} fit caps lineHeight={1} textColor="white">
               The Good
             </Heading>
@@ -300,31 +303,26 @@ export default class Presentation extends React.Component {
 
           <Slide bgColor="secondary" textColor="primary">
             <Heading size={1} fit caps lineHeight={1} textColor="white">
-              Isn't this just
+              Isn't this just???
             </Heading>
-            <List>
-              <Appear>
-                <ListItem>SASS, SCSS</ListItem>
-              </Appear>
-              <Appear>
-                <ListItem>LESS</ListItem>
-              </Appear>
-              <Appear>
-                <ListItem>Stylus</ListItem>
-              </Appear>
-              <Appear>
-                <ListItem>???</ListItem>
-              </Appear>
-            </List>
+            <Text fit bold caps textColor="tertiary">SASS, SCSS, LESS, Stylus</Text>
           </Slide>
 
           <Slide bgColor="secondary" textColor="primary">
             <Heading size={1} fit caps lineHeight={1} textColor="white">
               Kind of
             </Heading>
-            <Appear>
-              <Text fit bold caps textColor="tertiary">The beauty is <br /> you go back to writing <br />plain, <br />old, <br />Boring, CSS.</Text>
-            </Appear>
+            <Text fit bold caps textColor="tertiary">The beauty is you go back</Text>
+            <Text fit bold caps textColor="tertiary">to writing plain, old, Boring, CSS.</Text>
+          </Slide>
+
+          <Slide bgColor="secondary" textColor="primary">
+            <Heading size={1} fit caps lineHeight={1} textColor="white">
+              Future CSS
+            </Heading>
+            <Text fit bold caps textColor="tertiary">Variables, Custom properties, calc, </Text>
+            <Text fit bold caps textColor="tertiary">media query ranges, Custom Selectors</Text>
+            <Text fit bold caps textColor="tertiary">... and more!</Text>
           </Slide>
 
           <Slide bgColor="black">
@@ -388,7 +386,7 @@ export default class Presentation extends React.Component {
             ">
             <CodePane
               lang="jsx"
-              source={require("raw!../assets/css-modules-1.example")}
+              source={require("raw!../assets/code/css-modules-1.example")}
               margin="20px auto"
               textSize="30px;"
             />
@@ -410,7 +408,7 @@ export default class Presentation extends React.Component {
             ">
             <CodePane
               lang="jsx"
-              source={require("raw!../assets/css-modules-2.example")}
+              source={require("raw!../assets/code/css-modules-2.example")}
               margin="20px auto"
               textSize="30px;"
             />
@@ -426,7 +424,7 @@ export default class Presentation extends React.Component {
             ">
             <CodePane
               lang="jsx"
-              source={require("raw!../assets/css-modules-3.example")}
+              source={require("raw!../assets/code/css-modules-3.example")}
               margin="20px auto"
               textSize="30px;"
             />
@@ -442,7 +440,7 @@ export default class Presentation extends React.Component {
             ">
             <CodePane
               lang="jsx"
-              source={require("raw!../assets/css-modules-4.example")}
+              source={require("raw!../assets/code/css-modules-4.example")}
               margin="20px auto"
               textSize="30px;"
             />
@@ -450,14 +448,14 @@ export default class Presentation extends React.Component {
 
           <Slide bgColor="secondary" textColor="primary">
             <Heading size={1} fit caps lineHeight={1} textColor="white">
-              This thinking resulted in CSS Modules
+              This new feature + creative thinking resulted in CSS Modules
             </Heading>
           </Slide>
 
-          <Slide bgColor="secondary" textColor="primary">
-            <Heading size={1} fit caps lineHeight={1} textColor="white">
-              A CSS Module is a CSS file in which all class names and animation names are scoped locally by default.
-            </Heading>
+          <Slide bgColor="black">
+            <BlockQuote>
+              <Quote>A CSS Module is a CSS file in which all class names and animation names are scoped locally by default.</Quote>
+            </BlockQuote>
           </Slide>
 
           <Slide
@@ -470,7 +468,7 @@ export default class Presentation extends React.Component {
             ">
             <CodePane
               lang="jsx"
-              source={require("raw!../assets/css-modules-5.example")}
+              source={require("raw!../assets/code/css-modules-5.example")}
               margin="20px auto"
               textSize="30px;"
             />
@@ -486,7 +484,7 @@ export default class Presentation extends React.Component {
             ">
             <CodePane
               lang="jsx"
-              source={require("raw!../assets/css-modules-6.example")}
+              source={require("raw!../assets/code/css-modules-6.example")}
               margin="20px auto"
               textSize="30px;"
             />
@@ -508,7 +506,7 @@ export default class Presentation extends React.Component {
             ">
             <CodePane
               lang="jsx"
-              source={require("raw!../assets/css-modules-7.example")}
+              source={require("raw!../assets/code/css-modules-7.example")}
               margin="20px auto"
               textSize="30px;"
             />
@@ -524,7 +522,7 @@ export default class Presentation extends React.Component {
             ">
             <CodePane
               lang="jsx"
-              source={require("raw!../assets/css-modules-8.example")}
+              source={require("raw!../assets/code/css-modules-8.example")}
               margin="20px auto"
               textSize="30px;"
             />
@@ -562,50 +560,17 @@ export default class Presentation extends React.Component {
             </List>
           </Slide>
 
-          <Slide bgColor="secondary" textColor="primary">
+          <Slide bgImage={images.joyDivision2.replace("/", "")} bgColor="secondary" textColor="primary" bgDarken={0.25}>
             <Heading size={1} fit caps lineHeight={1} textColor="white">
               Demo
             </Heading>
           </Slide>
 
-          <Slide bgColor="secondary" textColor="primary">
+          <Slide bgImage={images.joyDivision1.replace("/", "")} bgColor="secondary" textColor="primary" bgDarken={0.75}>
             <Heading size={1} fit caps lineHeight={1} textColor="white">
-              Questions
+              Questions?
             </Heading>
           </Slide>
-
-          <Slide bgColor="primary" >
-            <Text size={1} caps lineHeight={2} textColor="white">
-              Big Audio Dynamite,
-              The Birthday Party,
-              Cocteau Twins,
-              The Cure,
-              Devo,
-              Echo & the Bunnymen,
-              The Flaming Lips,
-              A Flock of Seagulls,
-              Gang of Four,
-              Hüsker Dü,
-              The Jesus and Mary Chain,
-              Joy Division,
-              The Legendary Pink Dots,
-              Orchestral Manoeuvres in the Dark,
-              Nick Cave and the Bad Seeds,
-              The March Violets,
-              Mission of Burma,
-              Pere Ubu,
-              The Psychedelic Furs,
-              Public Image Ltd,
-              The Replacements,
-              Siouxsie and the Banshees,
-              Sonic Youth,
-              Talking Heads,
-              Television,
-              Wire,
-              XTC
-            </Text>
-          </Slide>
-
 
         </Deck>
       </Spectacle>

@@ -1,5 +1,0 @@
-require('./Button.css');
-
-// becomes...
-
-import styles from './Button.css';

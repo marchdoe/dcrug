@@ -1,0 +1,12 @@
+.button [ ... ]
+
+// Becomes:
+// A globally unique class
+
+.Button__button___27vnF { ... }
+
+// Can be modified but by default
+// it follows a BEM like structure
+---------------------------------
+// BEM = Block Element Modifier
+// http://getbem.com/introduction/
