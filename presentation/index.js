@@ -376,14 +376,7 @@ export default class Presentation extends React.Component {
             </Heading>
           </Slide>
 
-          <Slide
-            bgColor="primary"
-            notes="
-              <ul>
-                <li>talk about that</li>
-                <li>and that</li>
-              </ul>
-            ">
+          <Slide bgColor="primary">
             <CodePane
               lang="jsx"
               source={require("raw!../assets/code/css-modules-1.example")}
@@ -448,7 +441,10 @@ export default class Presentation extends React.Component {
 
           <Slide bgColor="secondary" textColor="primary">
             <Heading size={1} fit caps lineHeight={1} textColor="white">
-              This new feature + creative thinking resulted in CSS Modules
+              This new feature + creative thinking
+            </Heading>
+            <Heading size={1} fit caps lineHeight={1} textColor="white">
+              resulted in CSS Modules
             </Heading>
           </Slide>
 
