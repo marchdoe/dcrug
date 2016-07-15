@@ -36,6 +36,12 @@ This all means, more time for fun & profit!!!
 - [CSSconf EU 2015 | Glen Maddern: Interoperable CSS](https://www.youtube.com/watch?v=aIyhhHTmsXE)
 - [The case for CSS modules - Mark Dalgleish](https://www.youtube.com/watch?v=zR1lOuyQEt8)
 
+### Misc Resources
+- [Basscss](http://basscss.com)
+- [Rebass](http://jxnblk.com/rebass/)
+- [Reflexbox](http://jxnblk.com/reflexbox/)
+- [Tachyons](http://tachyons.io/)
+
 
 ## The Playlist
 
