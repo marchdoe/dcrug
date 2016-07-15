@@ -2,7 +2,7 @@
 //---------------
 
 .bold    { font-weight: bold; }
-.italic  {font-style: italic; }
+.italic  { font-style: italic; }
 
 
 // Button.css
