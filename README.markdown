@@ -16,9 +16,8 @@ This all means, more time for fun & profit!!!
 
 ## The Talk
 
-  link to a pdf
-
-  (better viewed in presentation mode - maximum gifage)
+- [the pdf](https://github.com/marchdoe/dcrug/blob/master/postcss-and-css-modules-doug-march.pdf)
+(better viewed in presentation mode - maximum gifage)
 
 
 ## Resources
