@@ -19,7 +19,7 @@ This all means, more time for fun & profit!!!
 - [the pdf](https://github.com/marchdoe/dcrug/blob/master/postcss-and-css-modules-doug-march.pdf)
 (better viewed in presentation mode - maximum gifage)
 
-to run
+#### Running the app
 
 ```
 clone the repo
