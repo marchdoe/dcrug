@@ -19,6 +19,15 @@ This all means, more time for fun & profit!!!
 - [the pdf](https://github.com/marchdoe/dcrug/blob/master/postcss-and-css-modules-doug-march.pdf)
 (better viewed in presentation mode - maximum gifage)
 
+to run
+
+```
+clone the repo
+npm i
+npm start
+http://localhost:3000 in your browser
+```
+
 
 ## Resources
 
