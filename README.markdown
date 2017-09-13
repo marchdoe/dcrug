@@ -10,7 +10,7 @@ These tools look to help eliminate the time it takes to write quality CSS.
 
 While at the same time, removing that terrible feeling when refactoring it.
 
-![alt text](http://img.pandawhale.com/58061-wwwfunnypictureblogcom-VzH9.gif)
+![alt text](https://media.tenor.com/images/e174e03dc8556d7a5ac3a100eeccf564/tenor.gif)
 
 This all means, more time for fun & profit!!!
 
